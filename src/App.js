@@ -4,8 +4,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route
-} from "react-router-dom";
-import './App.css';
+} from 'react-router-dom';
+import {Options} from "./features/options/Options";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                             <div>positions</div>
                         </Route>
                         <Route path="/">
-                            <div>home</div>
+                            <Options />
                         </Route>
                     </Switch>
                 </div>

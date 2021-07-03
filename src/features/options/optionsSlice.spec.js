@@ -2,9 +2,9 @@ import counterReducer, {
   increment,
   decrement,
   incrementByAmount,
-} from './counterSlice';
+} from './optionsSlice';
 
-describe('counter reducer', () => {
+describe('options reducer', () => {
   const initialState = {
     value: 3,
     status: 'idle',
